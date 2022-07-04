@@ -8,7 +8,11 @@ public class RomanArray {
             "LXXXI", "LXXXII", "LXXXIII", "LXXXIV", "LXXXV", "LXXXVI", "LXXXVII", "LXXXVIII", "LXXXIX", "XC",
             "XCI", "XCII", "XCIII", "XCIV", "XCV", "XCVI", "XCVII", "XCVIII", "XCIX", "C"};
 
-   public String[] romanC = new String[4001];
+    public String[] getRomanC() {
+        return romanC;
+    }
+
+    private String[] romanC = new String[4001];
 
     {
 

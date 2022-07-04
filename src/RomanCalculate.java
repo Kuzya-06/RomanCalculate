@@ -10,7 +10,7 @@ public class RomanCalculate {
             int x = sc.nextInt();
             if (x >= 0 && x <= 4000)
                 //     System.out.println("Roman Digit = " + new RomanArray().romanC[x]);
-                System.out.println("Число - " + x +" = "+RAT.romanC[x] +" - Roman numeral " );
+                System.out.println("Число - " + x +" = "+RAT.getRomanC()[x] +" - Roman numeral " );
             else {
                 try {
                     throw new ArrayIndexOutOfBoundsException("ArrayIndexOutOfBoundsException");
