@@ -1,0 +1,17 @@
+.gradle
+
+.idea/
+
+!.idea/icon*.png
+
+*.iml
+
+build/
+#IntelliJ
+out/
+
+src/main/gen
+
+src/main/resources/templates.list
+
+src/main/resources/gitignore/*
